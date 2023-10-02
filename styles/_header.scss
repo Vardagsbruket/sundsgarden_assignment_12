@@ -1,0 +1,22 @@
+
+
+.container_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    & ul {
+    list-style: none;
+    display: flex;
+    
+    }
+}
+.navBar li {
+    margin-right: 28px;
+}
