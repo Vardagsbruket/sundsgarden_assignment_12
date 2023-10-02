@@ -32,6 +32,14 @@ body {
     grid-row: 2/10;
 
 }
+.active {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+    max-height: 0;
+    max-width: 0;
+}
 
 /* Fonts */
 
@@ -54,8 +62,8 @@ a {
     &:hover {
         opacity: 0.5;
     }
+    
 }
-
 
 /* Adjustment for tablet */
 
@@ -96,6 +104,14 @@ a {
         font-weight: 400;
         line-height: 33px; /* 150% */
     }
+    .active {
+        visibility: visible;
+    }
+    .hidden {
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+    }
 }
 /* Adjustment for phone */
 
@@ -103,7 +119,9 @@ a {
     .container_header {
         grid-column: 2/10;
         grid-row: 1/2;
+        justify-content: center;
     }
+    
     .main_info {
         grid-column: 2/10;
         grid-row: 3/6;
@@ -127,5 +145,13 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: 18px; /* 150% */
+    }
+    .active {
+        visibility: hidden;
+        max-height: 0;
+        max-width: 0;
+    }
+    .hidden {
+        visibility: visible;
     }
 }
