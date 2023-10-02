@@ -12,34 +12,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container_main">
 
-        <header class="container_header">
-            <div class="logo">
-                <img src="./images/Head..png" alt="Logo head">
+    
+
+    <div class="container_grid">
+        
+            <header class="container_header">
+                <div class="logo">
+                    <img src="./images/Head..png" alt="Logo head">
+                </div>
+                <div class="container_nav">
+                    <nav class="navBar">
+                        <ul>
+                            <li>Works</li>
+                            <li>Services</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div class="main_info">
+                <h1>Recipes</h1>
+                <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
             </div>
-            <div class="container_nav">
-                <nav class="navBar">
-                    <ul>
-                        <li>Works</li>
-                        <li>Services</li>
-                        <li>Contacts</li>
-                    </ul>
-                </nav>
+
+            <div class="container_right">
+                <picture>
+                    <source media="(max-width: 700px)" srcset="./images/Soup-phone.png">
+                    <source media="(max-width: 1350px)" srcset="./images/Soup-tablet.png">
+                    <source media="(min-width: 1351px)" srcset="./images/Soup.png">
+                    <img src="./images/Soup.png" alt="Soup">
+                </picture>
             </div>
-        </header>
-
-        <div class="main_info">
-            <h1>Recipes</h1>
-            <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
-        </div>
-
-      
-
-        <div class="container_right">
-            <img src="./images/Soup.png" alt="Soup">
-        </div>
-
+        
     </div>
 </body>
 </html>
